@@ -458,4 +458,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }).catch(error => {
         console.log('Error in initialization:', error);
     });
+
+    // Form submission handler
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            // Let Netlify handle the form submission
+            // After a short delay, redirect to success page
+            setTimeout(function() {
+                window.location.href = '/success.html';
+            }, 1000);
+        });
+    }
 });
