@@ -1,0 +1,228 @@
+{
+  "reviews": [
+    {
+      "name": "Elissa Rae",
+      "date": "June 2025",
+      "rating": 5,
+      "content": "Beautiful studio, peaceful location, and easy check-in.",
+      "highlight": "Spacious studio, peaceful, walkable to dining"
+    },
+    {
+      "name": "Ankit",
+      "date": "May 2025",
+      "rating": 5,
+      "content": "Great location right next to the beach and restaurants!",
+      "highlight": "Great location, responsive hosts, highly recommend"
+    },
+    {
+      "name": "Scott",
+      "date": "April 2025",
+      "rating": 5,
+      "content": "Exceeded my expectations—clean, quiet, and spectacular ocean views.",
+      "highlight": "Clean, quiet, ocean views, very responsive host"
+    },
+    {
+      "name": "Randal",
+      "date": "March 2025",
+      "rating": 5,
+      "content": "You won't get any closer to the water than this.",
+      "highlight": "Closest to water, whale watching from balcony"
+    },
+    {
+      "name": "Nadine",
+      "date": "March 2025",
+      "rating": 5,
+      "content": "Perfect for whale watching and listening to the waves at night.",
+      "highlight": "Close to whale watching, food trucks, and ocean sounds"
+    },
+    {
+      "name": "Michael",
+      "date": "November 2024",
+      "rating": 5,
+      "content": "Quiet, walkable, and well-stocked with everything we needed.",
+      "highlight": "Quiet, walkable, well-stocked, friendly atmosphere"
+    },
+    {
+      "name": "Bill",
+      "date": "October 2024",
+      "rating": 5,
+      "content": "Fantastic location right on the water's edge—saw sea turtles every day!",
+      "highlight": "Turtles and sunsets from the lanai, great base for exploring"
+    },
+    {
+      "name": "Alexandra",
+      "date": "June 2025",
+      "rating": 5,
+      "content": "Great place, close to a wonderful beach and restaurants.",
+      "highlight": "Close to beach, snorkeling, and restaurants"
+    },
+    {
+      "name": "Jon",
+      "date": "May 2025",
+      "rating": 5,
+      "content": "The view was beautiful and the area is awesome.",
+      "highlight": "Beautiful view, awesome Maui experience"
+    },
+    {
+      "name": "Emily",
+      "date": "December 2024",
+      "rating": 5,
+      "content": "Peaceful, secluded, and perfect for whale watching from the lanai.",
+      "highlight": "Peaceful, close to food trucks, whale watching from lanai"
+    },
+    {
+      "name": "Nancy",
+      "date": "October 2024",
+      "rating": 5,
+      "content": "Private, oceanfront, and amazing sunsets—total win!",
+      "highlight": "Private, oceanfront, sunsets, turtles, rainbows"
+    },
+    {
+      "name": "Erin",
+      "date": "October 2024",
+      "rating": 5,
+      "content": "Gorgeous sunsets and sea turtles from the lanai.",
+      "highlight": "Sunsets, sea turtles, well-appointed kitchen"
+    },
+    {
+      "name": "Terra",
+      "date": "August 2024",
+      "rating": 5,
+      "content": "Perfect honeymoon spot with a stunning ocean view.",
+      "highlight": "Perfect honeymoon, stunning ocean view, great amenities"
+    },
+    {
+      "name": "Daniela",
+      "date": "July 2024",
+      "rating": 5,
+      "content": "Very clean, updated, and immaculate views!",
+      "highlight": "Clean, updated, immaculate views, safe"
+    },
+    {
+      "name": "Josh",
+      "date": "April 2025",
+      "rating": 5,
+      "content": "Absolutely fantastic—wouldn't hesitate to book again!",
+      "highlight": "Fantastic place, would book again"
+    },
+    {
+      "name": "Peter",
+      "date": "March 2025",
+      "rating": 5,
+      "content": "Lovely condo with whales, turtles, and sunsets from the balcony.",
+      "highlight": "Whales, turtles, sunsets from balcony"
+    },
+    {
+      "name": "Arika",
+      "date": "October 2024",
+      "rating": 5,
+      "content": "Simply amazing—stunning views and perfect amenities.",
+      "highlight": "Stunning views, perfect amenities, easy booking"
+    },
+    {
+      "name": "Tonia",
+      "date": "September 2024",
+      "rating": 5,
+      "content": "Beyond stunning views and close to food trucks.",
+      "highlight": "Stunning views, sea life, close to food trucks"
+    },
+    {
+      "name": "Kayleigh",
+      "date": "September 2024",
+      "rating": 5,
+      "content": "Amazing views—saw turtles from the lanai every day.",
+      "highlight": "Amazing views, turtles, walk to food trucks"
+    },
+    {
+      "name": "Lorene",
+      "date": "August 2024",
+      "rating": 5,
+      "content": "Maui Kai 806 was amazing—everything we needed and a stunning view.",
+      "highlight": "Everything needed, stunning view, hope to return"
+    },
+    {
+      "name": "Lauren",
+      "date": "June 2024",
+      "rating": 5,
+      "content": "Homey condo with an amazing view and less crowded beach.",
+      "highlight": "Homey, amazing view, less crowded beach"
+    },
+    {
+      "name": "Tyler",
+      "date": "May 2025",
+      "rating": 5,
+      "content": "Great stay with an unreal view.",
+      "highlight": "Unreal view, great stay"
+    },
+    {
+      "name": "Don",
+      "date": "May 2025",
+      "rating": 5,
+      "content": "Great location and a great stay.",
+      "highlight": "Great location, great stay"
+    },
+    {
+      "name": "Javier",
+      "date": "March 2025",
+      "rating": 5,
+      "content": "Amazing view and super clean—highly recommend.",
+      "highlight": "Amazing view, super clean, highly recommend"
+    },
+    {
+      "name": "Landon",
+      "date": "January 2025",
+      "rating": 5,
+      "content": "Great location with a beautiful view—will stay again!",
+      "highlight": "Beautiful view, will stay again"
+    },
+    {
+      "name": "Tenzom",
+      "date": "November 2024",
+      "rating": 5,
+      "content": "Ideal and convenient place—saw turtles, a seal, and a shark from the lanai!",
+      "highlight": "Ideal location, turtles, great amenities"
+    },
+    {
+      "name": "Allison",
+      "date": "September 2024",
+      "rating": 5,
+      "content": "Beautiful place, amazing host, and close to the beach.",
+      "highlight": "Amazing host, beautiful place, close to beach"
+    },
+    {
+      "name": "Tamara",
+      "date": "September 2024",
+      "rating": 5,
+      "content": "Amazing views, well stocked, and great beach gear.",
+      "highlight": "Amazing views, well stocked, great beach gear"
+    },
+    {
+      "name": "Dehit",
+      "date": "May 2025",
+      "rating": 5,
+      "content": "Amazing place to stay—spectacular sunsets and sea turtles from the balcony.",
+      "highlight": "Spectacular sunsets and sea turtles from the balcony"
+    },
+    {
+      "name": "Alexis",
+      "date": "April 2025",
+      "rating": 5,
+      "content": "Loved this place—perfect location with great food trucks nearby.",
+      "highlight": "Perfect location with great food trucks nearby"
+    },
+    {
+      "name": "Linda",
+      "date": "April 2025",
+      "rating": 5,
+      "content": "Jason's condo was perfect for our one week stay in Maui.",
+      "highlight": "Perfect for relaxing and getting away from stress"
+    },
+    {
+      "name": "Corina",
+      "date": "April 2025",
+      "rating": 5,
+      "content": "One of the best Airbnb stays around the world.",
+      "highlight": "One of the best Airbnb stays around the world"
+    }
+  ]
+} 
