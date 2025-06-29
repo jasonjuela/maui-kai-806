@@ -47,7 +47,7 @@ body {
 }
 
 .nav-logo-image {
-    height: 220px;
+    height: 97px;
     width: auto;
     margin-bottom: 0.2rem;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
@@ -107,7 +107,7 @@ body {
 /* Hero Section */
 .hero {
     position: relative;
-    padding: 120px 0 80px;
+    padding: 90px 0 80px !important;
     color: white;
     min-height: 100vh;
     display: flex;
@@ -1326,7 +1326,7 @@ body {
 }
 
 .footer-logo-image {
-    height: 100px;
+    height: 65px;
     width: auto;
     opacity: 0.9;
     transition: opacity 0.3s ease;
@@ -1589,7 +1589,7 @@ body {
 
     /* Logo Mobile Styles */
     .nav-logo-image {
-        height: 120px;
+        height: 97px;
     }
 
     .nav-subtitle {
@@ -1597,7 +1597,16 @@ body {
     }
 
     .footer-logo-image {
-        height: 80px;
+        height: 65px;
+    }
+
+    /* Small mobile scroll margin adjustments */
+    section {
+        scroll-margin-top: 100px;
+    }
+
+    .hero {
+        padding: 120px 0 50px;
     }
 }
 
@@ -1616,7 +1625,16 @@ body {
     }
 
     .container {
-        padding: 0 15px;
+        padding: 0 0.5rem;
+    }
+
+    /* Small mobile scroll margin adjustments */
+    section {
+        scroll-margin-top: 100px;
+    }
+
+    .hero {
+        padding: 120px 0 50px;
     }
 }
 
@@ -2027,7 +2045,7 @@ body {
 
 /* Ensure section titles are visible below the fixed navbar */
 section {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 90px !important;
 }
 
 .hero-buttons {
@@ -2039,11 +2057,11 @@ section {
 }
 
 .nav-logo-image {
-    height: 120px;
+    height: 97px;
 }
 
 .footer-logo-image {
-    height: 80px;
+    height: 65px;
     width: auto;
     opacity: 0.9;
     transition: opacity 0.3s ease;
