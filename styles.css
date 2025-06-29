@@ -1819,4 +1819,9 @@ body {
     visibility: hidden !important;
     position: absolute !important;
     left: -9999px !important;
+}
+
+/* Ensure section titles are visible below the fixed navbar */
+section {
+  scroll-margin-top: 80px;
 } 
