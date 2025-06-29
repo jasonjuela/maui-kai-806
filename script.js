@@ -96,11 +96,17 @@ function openModal(imageSrc, caption) {
     
     // Update navigation buttons
     updateModalNavigation();
+    
+    // Add touch listeners for mobile swipe
+    addModalTouchListeners();
 }
 
 function closeModal() {
     const modal = document.getElementById('imageModal');
     modal.style.display = 'none';
+    
+    // Remove touch listeners when modal closes
+    removeModalTouchListeners();
 }
 
 function nextModalImage() {
@@ -203,6 +209,68 @@ document.addEventListener('keydown', function(event) {
         prevModalImage();
     }
 });
+
+// Touch/Swipe functionality for photo gallery modal
+let touchStartX = 0;
+let touchEndX = 0;
+let touchStartY = 0;
+let touchEndY = 0;
+
+function handleModalTouchStart(e) {
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+}
+
+function handleModalTouchEnd(e) {
+    touchEndX = e.changedTouches[0].clientX;
+    touchEndY = e.changedTouches[0].clientY;
+    handleModalSwipe();
+}
+
+function handleModalSwipe() {
+    const deltaX = touchStartX - touchEndX;
+    const deltaY = touchStartY - touchEndY;
+    
+    // Minimum swipe distance to trigger navigation
+    const minSwipeDistance = 50;
+    
+    // Check if it's a horizontal swipe (more horizontal than vertical)
+    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > minSwipeDistance) {
+        if (deltaX > 0) {
+            // Swipe left - go to next image
+            nextModalImage();
+        } else {
+            // Swipe right - go to previous image
+            prevModalImage();
+        }
+    }
+}
+
+// Add touch event listeners to modal when it opens
+function addModalTouchListeners() {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    
+    if (modal && modalImg) {
+        modal.addEventListener('touchstart', handleModalTouchStart, { passive: true });
+        modal.addEventListener('touchend', handleModalTouchEnd, { passive: true });
+        modalImg.addEventListener('touchstart', handleModalTouchStart, { passive: true });
+        modalImg.addEventListener('touchend', handleModalTouchEnd, { passive: true });
+    }
+}
+
+// Remove touch event listeners when modal closes
+function removeModalTouchListeners() {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    
+    if (modal && modalImg) {
+        modal.removeEventListener('touchstart', handleModalTouchStart);
+        modal.removeEventListener('touchend', handleModalTouchEnd);
+        modalImg.removeEventListener('touchstart', handleModalTouchStart);
+        modalImg.removeEventListener('touchend', handleModalTouchEnd);
+    }
+}
 
 // Reviews Carousel Functionality
 function initCarousel() {
