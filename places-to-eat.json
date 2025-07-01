@@ -1,0 +1,510 @@
+[
+  {
+    "region": "Kahului",
+    "description": "Before and After Airport",
+    "places": [
+      {
+        "name": "TinRoof",
+        "address": "360 Papa Pl Ste 116, Kahului, HI 96732",
+        "phone": "(808) 868-0753",
+        "website": "https://www.tinroofmaui.com/",
+        "yelp": "https://www.yelp.com/biz/tin-roof-maui-kahului?osq=tinroof",
+        "notes": "Pre Order, Pickup and eat in car. Everything is good here. If you can try the fish fillet sandwich at least once. When we are here we eat her at least 3 times a trip. (Kahului Near Airport and Costco)",
+        "status": "must eat",
+        "tried": true,
+        "coordinates": [20.8869, -156.4653],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Hawaiian Local",
+        "price_range": "$$",
+        "best_dishes": ["Fish Fillet Sandwich", "Garlic Chicken", "Poke Bowl"]
+      },
+      {
+        "name": "Cafe O'Lei at the Plantation",
+        "address": "1670 Honoapi'ilani Hwy Waikapu, HI 96793",
+        "phone": "(808) 500-0553",
+        "notes": "Cool little area to visit, it's a plantation. The food is ok, but if you can get a table outside to see the view is fantastic.",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.8589, -156.5047],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "American",
+        "price_range": "$$",
+        "best_dishes": ["Plantation View", "Local Fish"]
+      },
+      {
+        "name": "Shikeda Bento Patisserie",
+        "address": "2050 Main St FC4, Wailuku, HI 96793",
+        "phone": "(808) 500-2556",
+        "website": "https://www.shikedamaui.com/",
+        "notes": "New to us want to try.",
+        "status": "want to try",
+        "tried": false,
+        "coordinates": [20.8906, -156.5047],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1563379091339-03246963d4a9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Japanese",
+        "price_range": "$$",
+        "best_dishes": ["Bento Box", "Pastries"]
+      }
+    ]
+  },
+  {
+    "region": "West Maui (Lahaina, Kaanapali)",
+    "description": "Dining here is touristy. expect high prices and longer waits for seating and to get your food.",
+    "places": [
+      {
+        "name": "Star Noodle",
+        "address": "1287 Front St Lahaina, Maui, Hawaii 96761",
+        "phone": "(808) 667-5400",
+        "website": "https://www.starnoodle.com/",
+        "notes": "Get a reservation. Sister restaurant of Aloha Mixed Plate. Best noodle dishes on the island (Ramen, Garlic Noods) Dinner time during sunset is nice make sure you get some shade though. Creative cocktails.",
+        "status": "must eat",
+        "tried": true,
+        "coordinates": [20.8744, -156.6776],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1557872943-5a5155883c3f?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Asian Fusion",
+        "price_range": "$$$",
+        "best_dishes": ["Garlic Noodles", "Ramen", "Sunset Views"]
+      },
+      {
+        "name": "Aloha Mixed Plate",
+        "address": "1285 Front St, Lahaina, HI 96761",
+        "phone": "(808) 661-3322",
+        "website": "https://alohamixedplate.com/",
+        "notes": "Can make a reservation or probably walk in, just give them a call first. Sister Restaurant of Star Noodle. Dinner time during sunset is nice make sure you get some shade though. Great Hawaiian plates and cocktails. Colton loves eating Kalbi there.",
+        "status": "must eat",
+        "tried": true,
+        "coordinates": [20.8744, -156.6776],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Hawaiian",
+        "price_range": "$$",
+        "best_dishes": ["Kalbi", "Hawaiian Plates", "Sunset Cocktails"]
+      },
+      {
+        "name": "Sansei Sushi",
+        "address": "Kapalua Resort 600 Office Rd, Lahaina, HI 96761",
+        "phone": "(808) 669-6286",
+        "website": "https://www.sanseihawaii.com/",
+        "notes": "Great happy hour, no reservation for Happy Hour, you have to wait in line. Early Bird Special 50% off food & sushi* Sunday & Monday 5:00PM - 5:45PM Dine-In No Reservations, seating on a first come first serve basis.",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [21.0000, -156.6667],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Japanese Sushi",
+        "price_range": "$$$",
+        "best_dishes": ["Happy Hour Sushi", "Early Bird Special"]
+      },
+      {
+        "name": "Miso Phat Sushi",
+        "address": "4310 Lower Honoapiilani Rd #111, Lahaina, HI 96761",
+        "phone": "(808) 669-9010",
+        "website": "https://misophatlahaina.com/",
+        "notes": "Creative Rolls. No Resys. BYOB. There is a location in Kihei, but I prefer Oao Sushi in Kihei.",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.9333, -156.6833],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Japanese Sushi",
+        "price_range": "$$",
+        "best_dishes": ["Creative Rolls", "BYOB"]
+      },
+      {
+        "name": "Fond",
+        "address": "5095 Napilihau St suite 115, Lahaina, HI 96761",
+        "phone": "(808) 856-0225",
+        "website": "fondmaui.com",
+        "notes": "Only been here once but it was decent",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.9333, -156.6833],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "American",
+        "price_range": "$$",
+        "best_dishes": ["Local Favorites"]
+      },
+      {
+        "name": "L&L Hawaiian Barbecue",
+        "address": "3350 Lower Honoapiilani Rd #4, Lahaina, HI 96761",
+        "phone": "(808) 667-7788",
+        "website": "llhawaiianbarbecuelahaina.com",
+        "notes": "Locals say this place is legit. For some reason it's best at this location only.",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.9333, -156.6833],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Hawaiian BBQ",
+        "price_range": "$",
+        "best_dishes": ["Hawaiian BBQ", "Plate Lunches"]
+      },
+      {
+        "name": "Food Trucks Kaanapali",
+        "address": "Across the street from L&L Hawaiian BBQ",
+        "notes": "Hit or Miss. The sushi place is overrated don't eat at the sushi place",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.9333, -156.6833],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Food Trucks",
+        "price_range": "$",
+        "best_dishes": ["Variety of Options"]
+      },
+      {
+        "name": "Duke's Beach House Maui",
+        "address": "130 Kai Malina Pkwy, Lahaina, HI 96761",
+        "phone": "(808) 662-2900",
+        "website": "dukesmaui.com",
+        "notes": "Very touristy",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.9333, -156.6833],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "American",
+        "price_range": "$$$",
+        "best_dishes": ["Beach Views"]
+      }
+    ]
+  },
+  {
+    "region": "Wailea and Kihei (South Maui)",
+    "places": [
+      {
+        "name": "Oao Sushi",
+        "address": "34 Wailea Gateway Pl, Kihei, HI 96753",
+        "phone": "(808) 318-1602",
+        "website": "oaowailea.com",
+        "notes": "Excellent Sushi, can be a bit pricy though. Colton likes the Karage Salmon there.",
+        "status": "must eat",
+        "tried": true,
+        "coordinates": [20.7669, -156.4478],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Japanese Sushi",
+        "price_range": "$$$",
+        "best_dishes": ["Karage Salmon", "Fresh Sushi", "Premium Quality"]
+      },
+      {
+        "name": "Island Gourmet Market",
+        "address": "3750 Wailea Alanui Drive, Wailea, HI 96753",
+        "phone": "(808) 874-5055",
+        "website": "https://www.islandgourmethawaii.com/wailea/",
+        "notes": "Kitchen in the back, really good quick meals. SPAM MUSUBI. Like ABC Store but better.",
+        "status": "must eat",
+        "tried": true,
+        "coordinates": [20.7667, -156.4500],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1563379091339-03246963d4a9?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Market & Deli",
+        "price_range": "$",
+        "best_dishes": ["Spam Musubi", "Quick Meals"]
+      },
+      {
+        "name": "Tanpopo",
+        "address": "1215 S Kihei Rd unit F, Kihei, HI 96753",
+        "phone": "(808) 446-3038",
+        "notes": "One of our favorite mom and pops Japanese spots. (Oh no I think it closed down :((((()",
+        "status": "closed",
+        "tried": true,
+        "coordinates": [20.7667, -156.4500],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1563379091339-03246963d4a9?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Japanese",
+        "price_range": "$$",
+        "best_dishes": ["Mom & Pop Japanese"]
+      },
+      {
+        "name": "Ululani's (Kihei Location)",
+        "address": "61 S Kihei Rd, Kihei, HI 96753",
+        "phone": "(808) 877-3700",
+        "website": "https://www.ululanishawaiianshaveice.com/",
+        "notes": "Best Shaved ice ever. Long lines maybe not so bad during offpeak",
+        "status": "must eat",
+        "tried": true,
+        "coordinates": [20.7667, -156.4500],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Shave Ice",
+        "price_range": "$",
+        "best_dishes": ["Hawaiian Shave Ice", "Tropical Flavors"]
+      },
+      {
+        "name": "Lineage",
+        "address": "3750 Wailea Alanui Dr, Wailea, HI 96753",
+        "phone": "(808) 879-8800",
+        "website": "http://www.lineagemaui.com/",
+        "notes": "Hawaiian Fusion, great cocktails. Higher priced.",
+        "status": "must eat",
+        "tried": true,
+        "coordinates": [20.7667, -156.4500],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Hawaiian Fusion",
+        "price_range": "$$$",
+        "best_dishes": ["Hawaiian Fusion", "Creative Cocktails"]
+      },
+      {
+        "name": "Akamai Coffee",
+        "address": "116 Wailea Ike Dr, Kihei, HI 96753",
+        "phone": "(808) 868-0003",
+        "website": "https://www.akamaicoffee.com/",
+        "notes": "100 percent Maui-grown and roasted coffee, including the award-winning Maui Mokka varietal. (Wailea, I think there is one in Kahului too)",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.7667, -156.4500],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Coffee",
+        "price_range": "$",
+        "best_dishes": ["Maui Mokka Coffee", "Local Roasts"]
+      },
+      {
+        "name": "Da Kitchen",
+        "address": "1215 S Kihei Rd suite e, Kihei, HI 96753",
+        "phone": "(808) 446-3486",
+        "website": "dakitchen.com",
+        "notes": "Chicken Katsu and other Hawaiian classics",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.7667, -156.4500],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Hawaiian",
+        "price_range": "$$",
+        "best_dishes": ["Chicken Katsu", "Hawaiian Classics"]
+      },
+      {
+        "name": "Maui Brewing Company",
+        "address": "605 Lipoa Pkwy, Kihei, HI 96753",
+        "phone": "(808) 201-2337",
+        "website": "https://www.mbcrestaurants.com/wp-content/uploads/Food-Beverage-Menu-Kihei.pdf",
+        "notes": "Great spot to just have beer and bar food. Meet up friends in a large group. (Kihei and many other locations)",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.7667, -156.4500],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Brewery & Pub",
+        "price_range": "$$",
+        "best_dishes": ["Local Beer", "Bar Food", "Group Dining"]
+      },
+      {
+        "name": "Kihei Caffe",
+        "address": "1945 S Kihei Rd, Kihei, HI 96753",
+        "phone": "(808) 879-2230",
+        "website": "https://kiheicaffe.com/",
+        "notes": "Breakfast only",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.7669, -156.4478],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Breakfast",
+        "price_range": "$$",
+        "best_dishes": ["Breakfast Plates", "Local Coffee", "Morning Views"]
+      },
+      {
+        "name": "Nalu's South Shore Grill",
+        "address": "1280 S Kihei Rd, Kihei, HI 96753",
+        "phone": "(808) 891-8650",
+        "website": "https://naluskihei.com/",
+        "notes": "Good for breakfast",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.7667, -156.4500],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Breakfast",
+        "price_range": "$$",
+        "best_dishes": ["Breakfast"]
+      },
+      {
+        "name": "Monkeypod Kitchen by Merriman",
+        "address": "10 Wailea Gateway Pl B-201, Kihei, HI 96753",
+        "phone": "(808) 891-2322",
+        "website": "https://monkeypodkitchen.com/menus/Wailea-Menu-Dinner.pdf",
+        "notes": "Touristy chain restaurant",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.7667, -156.4500],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "American",
+        "price_range": "$$$",
+        "best_dishes": ["Chain Restaurant"]
+      },
+      {
+        "name": "Spoon & Key",
+        "address": "108 Wailea Ike Dr Suite 1201, 1202, Wailea, HI 96753",
+        "phone": "(808) 879-2433",
+        "website": "https://spoonandkey.com/",
+        "notes": "New haven't tried yet but on the radar.",
+        "status": "want to try",
+        "tried": false,
+        "coordinates": [20.7667, -156.4500],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "New Restaurant",
+        "price_range": "$$",
+        "best_dishes": ["New on Radar"]
+      }
+    ]
+  },
+  {
+    "region": "Olowalu",
+    "description": "Inbetween Lahaina and Kihei",
+    "places": [
+      {
+        "name": "Haven's Harborside",
+        "address": "300 Maalaea Road, Wailuku, Hawaii 96793",
+        "phone": "(808) 214-6503",
+        "website": "https://havensharborside.com/",
+        "notes": "Great happy hour. Chef voted best by his peers this year. Near the Aquarium.",
+        "status": "must eat",
+        "tried": true,
+        "coordinates": [20.8000, -156.5167],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Seafood",
+        "price_range": "$$$",
+        "best_dishes": ["Happy Hour", "Chef's Specials", "Harbor Views"]
+      },
+      {
+        "name": "Leoda's Kitchen and Pie Shop",
+        "address": "820 Olowalu Village Rd, Lahaina, HI 96761",
+        "phone": "(808) 662-3600",
+        "website": "https://www.leodas.com/",
+        "notes": "The individual pies here are fantastic (Coconut Cream, Choc Mac Nut, and Olowalu Lime).",
+        "status": "tried",
+        "tried": true,
+        "coordinates": [20.8167, -156.5833],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Bakery & Cafe",
+        "price_range": "$$",
+        "best_dishes": ["Coconut Cream Pie", "Choc Mac Nut Pie", "Olowalu Lime Pie"]
+      }
+    ]
+  },
+  {
+    "region": "Paia",
+    "description": "Near the beginning of Road To Hana. A lot of mom and pop shops in this area and some other eaterys. We don't spend a lot of time here though.",
+    "places": [
+      {
+        "name": "Mama's Fish House",
+        "address": "799 Poho Pl, Paia, HI 96779",
+        "phone": "(808) 579-8488",
+        "website": "mamasfishhouse.com",
+        "notes": "Famous place to have a meal, kinda touristy because everyone knows about it. Beautiful spot.",
+        "status": "must eat",
+        "tried": true,
+        "coordinates": [20.9167, -156.3667],
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Seafood",
+        "price_range": "$$$$",
+        "best_dishes": ["Fresh Fish", "Beautiful Location", "Famous Spot"]
+      }
+    ]
+  },
+  {
+    "region": "Others",
+    "places": [
+      {
+        "name": "Broke da mouth",
+        "notes": "Must eat - details coming soon",
+        "status": "must eat",
+        "tried": false,
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Local Favorite",
+        "price_range": "$$",
+        "best_dishes": ["Details Coming Soon"]
+      },
+      {
+        "name": "Foodland Market",
+        "notes": "Several locations. You can always pick up Poke or Spam Musubi there. It's top notch!",
+        "status": "tried",
+        "tried": true,
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1563379091339-03246963d4a9?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Market",
+        "price_range": "$",
+        "best_dishes": ["Poke", "Spam Musubi"]
+      },
+      {
+        "name": "Island Gourmet Market",
+        "notes": "Same as above",
+        "status": "tried",
+        "tried": true,
+        "dish_photos": [
+          "https://images.unsplash.com/photo-1563379091339-03246963d4a9?w=400&h=300&fit=crop"
+        ],
+        "cuisine": "Market",
+        "price_range": "$",
+        "best_dishes": ["Poke", "Spam Musubi"]
+      }
+    ]
+  }
+] 

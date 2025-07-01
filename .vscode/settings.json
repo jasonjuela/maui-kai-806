@@ -1,0 +1,6 @@
+{
+    "cursor.requireApprovalForAIEdits": true,
+    "cursor.autoApplyAIEdits": false,
+    "cursor.showAIEditPreview": true,
+    "cursor.confirmAIEdits": true
+} 

@@ -79,16 +79,16 @@ function openModal(imageSrc, caption) {
     modalImg.classList.add('modal-image-no-caption');
     
     // SUPER AGGRESSIVE styling to ensure large size
-    modalImg.style.maxWidth = '99vw !important';
-    modalImg.style.maxHeight = '99vh !important';
+    modalImg.style.maxWidth = '90vw !important';
+    modalImg.style.maxHeight = '90vh !important';
     modalImg.style.width = 'auto !important';
     modalImg.style.height = 'auto !important';
     modalImg.style.objectFit = 'contain !important';
     
     // Force the styles again after a short delay to ensure they stick
     setTimeout(() => {
-        modalImg.style.maxWidth = '99vw';
-        modalImg.style.maxHeight = '99vh';
+        modalImg.style.maxWidth = '90vw';
+        modalImg.style.maxHeight = '90vh';
         modalImg.style.width = 'auto';
         modalImg.style.height = 'auto';
         modalImg.style.objectFit = 'contain';
@@ -122,16 +122,16 @@ function nextModalImage() {
             modalImg.classList.add('modal-image-no-caption');
             
             // SUPER AGGRESSIVE styling to ensure large size
-            modalImg.style.maxWidth = '99vw !important';
-            modalImg.style.maxHeight = '99vh !important';
+            modalImg.style.maxWidth = '90vw !important';
+            modalImg.style.maxHeight = '90vh !important';
             modalImg.style.width = 'auto !important';
             modalImg.style.height = 'auto !important';
             modalImg.style.objectFit = 'contain !important';
             
             // Force the styles again after a short delay to ensure they stick
             setTimeout(() => {
-                modalImg.style.maxWidth = '99vw';
-                modalImg.style.maxHeight = '99vh';
+                modalImg.style.maxWidth = '90vw';
+                modalImg.style.maxHeight = '90vh';
                 modalImg.style.width = 'auto';
                 modalImg.style.height = 'auto';
                 modalImg.style.objectFit = 'contain';
@@ -155,16 +155,16 @@ function prevModalImage() {
             modalImg.classList.add('modal-image-no-caption');
             
             // SUPER AGGRESSIVE styling to ensure large size
-            modalImg.style.maxWidth = '99vw !important';
-            modalImg.style.maxHeight = '99vh !important';
+            modalImg.style.maxWidth = '90vw !important';
+            modalImg.style.maxHeight = '90vh !important';
             modalImg.style.width = 'auto !important';
             modalImg.style.height = 'auto !important';
             modalImg.style.objectFit = 'contain !important';
             
             // Force the styles again after a short delay to ensure they stick
             setTimeout(() => {
-                modalImg.style.maxWidth = '99vw';
-                modalImg.style.maxHeight = '99vh';
+                modalImg.style.maxWidth = '90vw';
+                modalImg.style.maxHeight = '90vh';
                 modalImg.style.width = 'auto';
                 modalImg.style.height = 'auto';
                 modalImg.style.objectFit = 'contain';

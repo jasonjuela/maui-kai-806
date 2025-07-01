@@ -695,8 +695,8 @@ body {
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
-    max-width: 99vw !important;
-    max-height: 99vh !important;
+    max-width: 90vw !important;
+    max-height: 90vh !important;
     width: auto !important;
     height: auto !important;
     object-fit: contain !important;
@@ -707,15 +707,15 @@ body {
 .modal-image-no-caption,
 #imageModal .modal-image-no-caption,
 .modal .modal-image-no-caption {
-    max-width: 99vw !important;
-    max-height: 99vh !important;
+    max-width: 90vw !important;
+    max-height: 90vh !important;
 }
 
 /* Force all modal images to be large */
 #imageModal .modal-content,
 #imageModal #modalImage {
-    max-width: 99vw !important;
-    max-height: 99vh !important;
+    max-width: 90vw !important;
+    max-height: 90vh !important;
 }
 
 /* Modal Navigation Buttons */
