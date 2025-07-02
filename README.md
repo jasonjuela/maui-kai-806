@@ -156,3 +156,5 @@ This template is free to use for personal and commercial projects.
 **Ready to launch your Maui Kai 806 website?** 🏝️
 
 Just customize the content, upload to your hosting provider, and you'll have a professional, modern vacation rental website that's easy to read and navigate! 
+
+<!-- Trigger redeploy: 

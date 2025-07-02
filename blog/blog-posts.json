@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "whale-watching-guide",
+      "title": "Whale Watching from Maui Kai 806: Your Complete Guide",
+      "description": "Watch magnificent humpback whales from your private lanai at Maui Kai 806. Complete guide to whale watching season, best viewing spots, and photography tips.",
+      "keywords": "whale watching Maui, humpback whales Kaanapali, whale watching from lanai, Maui Kai 806 whale watching, whale season Maui",
+      "filename": "whale-watching-guide.html",
+      "date": "2025-01-15",
+      "category": "Whale Watching",
+      "featured_image": "../images/MorePhotos/WatchWhalesBreachFromOurPrivateLanaiBalcony.jpg",
+      "excerpt": "Imagine sipping your morning coffee while watching magnificent humpback whales breach gracefully from the comfort of your private lanai. Your complete guide to whale watching from Maui Kai 806.",
+      "author": "Jason & Gloria",
+      "read_time": "8 min read"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Whale Watching",
+      "description": "Everything about whale watching from Maui Kai 806",
+      "color": "#2a5298"
+    },
+    {
+      "name": "Local Tips",
+      "description": "Insider knowledge and local recommendations",
+      "color": "#1e3c72"
+    },
+    {
+      "name": "Activities",
+      "description": "Things to do and adventures near Kaanapali Beach",
+      "color": "#2a5298"
+    }
+  ]
+} 
