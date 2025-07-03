@@ -965,6 +965,12 @@
                     <strong>Restaurants Loaded:</strong> <span id="restaurantCount">0</span>
                 </div>
                 
+                <!-- Debug: Show all restaurant names -->
+                <div style="background: #fff3cd; padding: 10px; margin: 10px 0; border-radius: 5px; font-size: 12px; max-height: 200px; overflow-y: auto;">
+                    <strong>All Restaurants in Array:</strong><br>
+                    <div id="restaurantList">Loading...</div>
+                </div>
+                
                 <div class="map-container">
                     <div id="restaurantMap" class="restaurant-map">
                         <!-- Fallback static map -->
@@ -1345,20 +1351,25 @@
                 restaurants.forEach(restaurant => {
                     console.log('Adding marker for:', restaurant.name, 'at position:', restaurant.position);
                     
-                    const marker = L.marker(restaurant.position, {
-                        icon: createCustomIcon(restaurant.icon)
-                    }).addTo(map);
+                    try {
+                        const marker = L.marker(restaurant.position, {
+                            icon: createCustomIcon(restaurant.icon)
+                        }).addTo(map);
 
-                    // Create popup content
-                    const popupContent = `
-                        <div style="padding: 5px; max-width: 200px;">
-                            <h3 style="margin: 0 0 5px 0; color: #2c5530; font-size: 14px;">${restaurant.name}</h3>
-                            <p style="margin: 0; font-size: 12px; color: #666;">${restaurant.description}</p>
-                        </div>
-                    `;
+                        // Create popup content
+                        const popupContent = `
+                            <div style="padding: 5px; max-width: 200px;">
+                                <h3 style="margin: 0 0 5px 0; color: #2c5530; font-size: 14px;">${restaurant.name}</h3>
+                                <p style="margin: 0; font-size: 12px; color: #666;">${restaurant.description}</p>
+                            </div>
+                        `;
 
-                    marker.bindPopup(popupContent);
-                    markersAdded++;
+                        marker.bindPopup(popupContent);
+                        markersAdded++;
+                        console.log('Successfully added marker for:', restaurant.name);
+                    } catch (markerError) {
+                        console.error('Error adding marker for:', restaurant.name, markerError);
+                    }
                 });
 
                 console.log('Successfully added', markersAdded, 'markers to the map');
@@ -1379,6 +1390,12 @@
             // Update debug display
             document.getElementById('mapStatus').textContent = 'Initializing...';
             document.getElementById('restaurantCount').textContent = restaurants.length;
+            
+            // Show all restaurant names
+            const restaurantList = document.getElementById('restaurantList');
+            restaurantList.innerHTML = restaurants.map((r, index) => 
+                `${index + 1}. ${r.name} (${r.category})`
+            ).join('<br>');
             
             setTimeout(initRestaurantMap, 1000);
         });
