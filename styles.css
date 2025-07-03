@@ -1608,6 +1608,36 @@ body {
     .hero {
         padding: 120px 0 50px;
     }
+    
+    .featured-review {
+        padding: 2rem 0;
+    }
+    
+    .featured-review-card {
+        padding: 2rem;
+        margin: 0 1rem;
+    }
+    
+    .featured-review-card::before {
+        font-size: 4rem;
+        top: -5px;
+        left: 15px;
+    }
+    
+    .featured-review-meta h3 {
+        font-size: 1.3rem;
+    }
+    
+    .featured-review-content p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    
+    .featured-review-author {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1636,6 +1666,83 @@ body {
     .hero {
         padding: 120px 0 50px;
     }
+}
+
+/* Featured Review Section */
+.featured-review {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.featured-review-card {
+    background: white;
+    border-radius: 16px;
+    padding: 3rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e9ecef;
+    position: relative;
+    overflow: hidden;
+}
+
+.featured-review-card::before {
+    content: '"';
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    font-size: 8rem;
+    color: #2a5298;
+    opacity: 0.1;
+    font-family: 'Playfair Display', serif;
+    line-height: 1;
+}
+
+.featured-review-header {
+    margin-bottom: 2rem;
+}
+
+.featured-review-meta h3 {
+    color: #2a5298;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.featured-review-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.author-name {
+    font-weight: 600;
+    color: #1e3c72;
+    font-size: 1.1rem;
+}
+
+.review-date {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.featured-review-stars {
+    color: #fbbf24;
+    font-size: 1.2rem;
+}
+
+.featured-review-content {
+    position: relative;
+    z-index: 2;
+}
+
+.featured-review-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    font-style: italic;
+    margin: 0;
+    text-align: justify;
 }
 
 /* Reviews Section */
