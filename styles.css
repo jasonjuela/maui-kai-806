@@ -1609,8 +1609,8 @@ body {
         padding: 120px 0 50px;
     }
     
-    .featured-review {
-        padding: 2rem 0;
+    .featured-review-card {
+        margin: 2rem 1rem;
     }
     
     .featured-review-card {
@@ -1668,11 +1668,7 @@ body {
     }
 }
 
-/* Featured Review Section */
-.featured-review {
-    padding: 4rem 0;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-}
+/* Featured Review Box */
 
 .featured-review-card {
     background: white;
